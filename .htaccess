@@ -1,0 +1,4 @@
+<FilesMatch "^(\.env|\.env\.example|fake_secret\.key|config\.php)$">
+    Require all denied
+</FilesMatch>
+Options -Indexes
